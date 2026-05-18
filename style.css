@@ -172,7 +172,7 @@ blockquote{
     body {
         background-attachment: scroll;
     }
-    .profil{
+    .profil img{
         display: none;
     }
 }
@@ -238,10 +238,7 @@ blockquote{
     }
     
     .profil img {
-        width: 200px;
-        height: 200px;
-        margin: 0 auto 0;
-        order: 2; /* Foto tetap di bawah text */
+       display: none;
     }
     
     .content1 {
@@ -274,8 +271,7 @@ blockquote{
     }
     
     .profil img {
-        width: 180px;
-        height: 180px;
+        display: none;
     }
     
     nav {
@@ -305,7 +301,6 @@ blockquote{
     }
     
     .profil img {
-        width: 150px;
-        height: 150px;
+        display: none;
     }
 }
