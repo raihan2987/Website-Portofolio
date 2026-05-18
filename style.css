@@ -11,12 +11,13 @@
     width: 300px;
     height: 300px;
     margin-right: 10px;
-    margin-top: 20px; 
+    margin-top: 40px; 
     border: 3px solid rgba(113, 112, 112, 0.354);
 }
 
 h1{
     animation: fadein 1.5s ease;
+    margin-top: 25px;
 }
 
 h2{
@@ -106,7 +107,7 @@ nav a{
 }
 
 .atas{
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 body{
@@ -158,6 +159,7 @@ p{
 .skills{
     padding: 5px 60px 30px 60px;
     color: white;
+    margin-top: 50px;
 }
 
 blockquote{
@@ -169,6 +171,9 @@ blockquote{
 @media (max-width: 600px) {
     body {
         background-attachment: scroll;
+    }
+    .profil{
+        display: none;
     }
 }
 
